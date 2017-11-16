@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="lifted.css">
+<meta charset="UTF-8">
+<script>
+function detectmobile() {
+ if( navigator.userAgent.match(/Android/i)
+ || navigator.userAgent.match(/webOS/i)
+ || navigator.userAgent.match(/iPhone/i)
+ || navigator.userAgent.match(/Windows Phone/i)
+ ){
+    window.location.href="https://airbit.com/widgets/html5/?uid=201671&config=389948";
+     return true;
+  }
+ else {
+    return false;
+  }
+}
+window.onload=detectmobile;
+</script>
+<title>Lifted Beats - Beats for Sale by Lifted&trade;</title>
+</head>
+
+<body>
+<div id="beatShop"><iframe id="mfs_html5" src="https://airbit.com/widgets/html5/?uid=201671&config=389948" width="750" height="510" frameborder="0" scrolling="no"></iframe></div>
+
+</body>
+</html>

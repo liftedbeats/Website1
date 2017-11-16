@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+    background-image: url(images/Snowfall%20Gif.gif);
+	/* background-size: 1280px 720px; */
+    background-repeat: no-repeat;
+	background-color: #18436E;
+    font-family: "Arial Black", Arial;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+h1 {
+  font-size: 80px;
+  color: #FF00FF;
+  font-style: italic;
+  font-family: "Arial Black", Arial;
+  text-align: center;
+  text-shadow: 5px 2px black;
+  height: 300px;
+  width: 50px;
+
+}
+
+h2 {
+  width: 750px;
+  margin:  0 auto;
+  top: -600px;
+}
+
+#mfs_html5 {
+  margin:  0 auto;
+}
+
+#section {
+  width: 650px;
+  margin:  0 auto;
+  height: 150%;
+}
+
+#headerImage {
+  position: relative;
+  margin: 50px;
+  top: -35px;
+}
+
+#beatShop {
+  width:800px;
+  height: 600px;
+  margin: 10% 25%;
+}
+
+#button1 {
+  margin: 20px;
+}
+
+#button2{
+  margin: 20px;
+}
+
+#button3{
+  margin: 20px;
+}
+
+#button4{
+  margin: 20px;
+}
+
+#menu{
+	position: relative;
+	left: 50px;
+	margin:  0 auto;
+}
